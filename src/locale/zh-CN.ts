@@ -16,6 +16,7 @@ import localeUserInfo from '../pages/user-info/locale/zh-CN';
 import localeUserSetting from '../pages/user-setting/locale/zh-CN';
 import localeMonitor from '../pages/monitor/locale/zh-CN';
 import localeBasicProfile from '../pages/basic-profile/locale/zh-CN';
+import localeCodeReact from '../pages/code-react/locale/zh-CN';
 
 export default {
   'menu.dashboard': '仪表盘',
@@ -27,6 +28,7 @@ export default {
   'menu.visualization': '数据可视化',
   'menu.user': '个人中心',
   'navbar.docs': '文档中心',
+  'menu.code': '源码学习',
   ...localeSettings,
   ...localeMessageBox,
   ...localeWorkplace,
@@ -45,4 +47,5 @@ export default {
   ...localeUserSetting,
   ...localeMonitor,
   ...localeBasicProfile,
+  ...localeCodeReact,
 };

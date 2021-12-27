@@ -16,6 +16,7 @@ import localeUserInfo from '../pages/user-info/locale/en-US';
 import localeUserSetting from '../pages/user-setting/locale/en-US';
 import localeMonitor from '../pages/monitor/locale/en-US';
 import localeBasicProfile from '../pages/basic-profile/locale/en-US';
+import localeCodeReact from '../pages/code-react/locale/en-US';
 
 export default {
   'menu.dashboard': 'Dashboard',
@@ -27,6 +28,7 @@ export default {
   'menu.visualization': 'Data Visualization',
   'menu.user': 'User Center',
   'navbar.docs': 'Docs',
+  'menu.code': 'Source Code',
   ...localeSettings,
   ...localeMessageBox,
   ...localeWorkplace,
@@ -45,4 +47,5 @@ export default {
   ...localeUserSetting,
   ...localeMonitor,
   ...localeBasicProfile,
+  ...localeCodeReact,
 };

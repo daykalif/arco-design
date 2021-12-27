@@ -61,7 +61,7 @@ function BasicProfile() {
         <Grid.Row justify="space-between" align="center" style={{ marginBottom: 24 }}>
           <Grid.Col span={16}>
             <Typography.Title heading={6} style={{ margin: 0 }}>
-              王力群{locale['basicProfile.title.form']}
+              Daykalif{locale['basicProfile.title.form']}
             </Typography.Title>
           </Grid.Col>
           <Grid.Col span={8} style={{ textAlign: 'right' }}>

@@ -8,11 +8,24 @@ import {
   IconFile,
   IconApps,
   IconUser,
+  IconCodepen,
 } from '@arco-design/web-react/icon';
 
 export const defaultRoute = 'dashboard/workplace';
 
 export const routes = [
+  {
+    name: 'menu.code',
+    key: 'code',
+    icon: <IconCodepen />,
+    children: [
+      {
+        name: 'menu.code.react',
+        key: 'code/react',
+        componentPath: 'code-react',
+      },
+    ],
+  },
   {
     name: 'menu.dashboard',
     key: 'dashboard',
